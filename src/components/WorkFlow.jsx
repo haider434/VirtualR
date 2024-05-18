@@ -5,7 +5,7 @@ import { BiCheckCircle } from 'react-icons/bi'
 const WorkFlow = () => {
   return (
     <div className="mt-[10vw]">
-        <h2 className='text-6xl font-bold sm:text-5xl text-center '>Accelerate your <span className='bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent'> Coding Flow</span></h2>
+        <h2 className='text-6xl font-bold sm:text-5xl text-center py-12'>Accelerate your <span className='bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent'> Coding Flow</span></h2>
         <div className='mt-10 flex-wrap flex '>
             <div className="justify-center lg:w-1/2 p-4 w-full">
                 <img src={workFlow} width={600} height={130} alt="" />

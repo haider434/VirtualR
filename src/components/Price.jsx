@@ -3,9 +3,9 @@ import { pricingOptions } from '../constants/index';
 
 const Price = () => {
   return (
-    <div className='mt-10 flex justify-center items-center w-full'>
+    <div className=' flex justify-center items-center w-full'>
       <div className='w-[80%]'>
-        <h1 className='text-5xl font-semibold text-center mb-10'>Pricing</h1>
+        <h1 className='text-5xl font-semibold text-center py-14 pb-[6vw]'>Pricing</h1>
         <div className="grid gap-10 justify-center items-start sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {pricingOptions.map((item, index) => (
             <div key={index} className="border-2 p-12 border-gray-600 shadow-xl rounded-2xl w-full">

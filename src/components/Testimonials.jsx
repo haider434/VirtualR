@@ -3,11 +3,11 @@ import { testimonials } from "../constants/index";
 
 const Testimonials = () => {
   return (
-    <div className="mt-10">
-      <h1 className="text-center text-2xl lg:text-4xl font-medium py-6">
+    <div className="my-10">
+      <h1 className="text-center text-2xl lg:text-4xl font-medium py-16 pt-[6rem]">
         What people are saying about Us
       </h1>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10 my-10 w-[90%] mx-auto ">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10 my-16  w-[90%] mx-auto ">
         {testimonials.map((testimonial,index)=>(
             <div key={index} className="p-8 border border-gray-500 rounded-xl">
                 <p className="text-gray-400">{testimonial.text}</p>
